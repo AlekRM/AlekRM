@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>index </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="position:absolute;top:0;">
+  <defs>
+    <filter id="squiggly-5">
+      <feTurbulence id="turbulence10" baseFrequency="0.2" numOctaves="3" result="noise" seed="0"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    <filter id="squiggly-6">
+      <feTurbulence id="turbulence11" baseFrequency="0.2" numOctaves="3" result="noise" seed="1"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    
+    <filter id="squiggly-7">
+      <feTurbulence id="turbulence12" baseFrequency="0.2" numOctaves="3" result="noise" seed="2"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+    <filter id="squiggly-8">
+      <feTurbulence id="turbulence13" baseFrequency="0.2" numOctaves="3" result="noise" seed="3"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    
+    <filter id="squiggly-9">
+      <feTurbulence id="turbulence14" baseFrequency="0.2" numOctaves="3" result="noise" seed="4"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+  </defs> 
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="position:absolute;">
+  <defs>
+    <filter id="squiggly-0">
+      <feTurbulence id="turbulence0" baseFrequency="0.3" numOctaves="3" result="noise" seed="0"/>
+      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="7" />
+    </filter>
+    <filter id="squiggly-1">
+      <feTurbulence id="turbulence1" baseFrequency="0.3" numOctaves="3" result="noise" seed="1"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+    </filter>
+    
+    <filter id="squiggly-2">
+      <feTurbulence id="turbulence2" baseFrequency="0.3" numOctaves="3" result="noise" seed="2"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="7" />
+    </filter>
+    <filter id="squiggly-3">
+      <feTurbulence id="turbulence3" baseFrequency="0.3" numOctaves="3" result="noise" seed="3"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+    </filter>
+    
+    <filter id="squiggly-4">
+      <feTurbulence id="turbulence4" baseFrequency="0.3" numOctaves="3" result="noise" seed="4"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="7" />
+    </filter>
+  </defs> 
+</svg>
+
+<div id="supernovacontainer">  <div id="align_supernova">
+<div id="supernova">
+    <i></i>
+   <i></i>
+</div></div></div>
+
+<div id="containerstars">
+	<div class="stars s">
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+	</div>
+    <div class="stars m">
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+	</div>
+	<div class="stars l">
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+	</div>
+	<div class="star-1 starshape1"></div>
+<div><img class="star-2 starshape2" src="Imagenes/Starwhite.png" alt="white star drawing"></div>
+<div><img class="star-3 starshape2" src="Imagenes/Starwhite.png" alt="white star drawing"></div>
+<div><img class="star-5 starshape2" src="Imagenes/Starwhite.png" alt="white star drawing"></div>
+<div class="star-4 starshape1"></div>
+
+</div>
+
+<nav >
+  <div id="menuToggle">
+   <input type="checkbox" />
+	<span></span>
+    <span></span>
+    <span></span> 
+    <ul id="menu">
+      <li><a href="Reading.html">READING</a></li>
+      <li><a href="#About">ABOUT</a></li>
+      <li><a href="#Contact">CONTACT</a></li>
+	  <li><a href="#Thecards">THE CARDS</a></li>
+    </ul>
+  </div></nav>
+
+<div class="containerportada"> 
+
+<div class="Alinear_flex">
+    <img id="ojo" src="Imagenes/Ojo.gif" alt="ojo">
+	<img class="top_image" id="OjoHover" src="Imagenes/OjoHover.gif" alt="ojo">
+    <div class="Alinear_ztarot">
+    <img id="ztarot" src="Imagenes/ztarot.png" alt="logo ztarot"> </div>
+ </div>  </div>
+
+<div class="containercirc">
